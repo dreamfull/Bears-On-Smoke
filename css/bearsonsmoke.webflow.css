@@ -519,7 +519,7 @@ figcaption {
 }
 
 .main-wrapper {
-  border: 6px solid #000;
+  border: 0px solid #000;
 }
 
 .container-medium {
@@ -1478,7 +1478,7 @@ figcaption {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.32)), to(rgba(0, 0, 0, 0.32))), url('../images/bg.png');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.32)), url('../images/bg.png');
   background-position: 0px 0px, 50% 75%;
-  background-size: cover; 
+  background-size: auto, cover;
   background-repeat: repeat, repeat;
   background-attachment: scroll, fixed;
 }
@@ -2355,7 +2355,7 @@ figcaption {
 }
 
 .body {
-  background-color: #101111;
+  background-color: #171b1b;
   color: #000;
 }
 
@@ -2419,7 +2419,9 @@ figcaption {
   margin-right: 2em;
   margin-left: 2em;
   padding-top: 3rem;
-  border: 6px solid #000;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #fff;
   border-radius: 0px;
   background-color: rgba(19, 19, 19, 0.72);
   font-family: 'Bloxat pdoe', sans-serif;
@@ -2616,9 +2618,11 @@ figcaption {
 .section-faq5 {
   display: block;
   margin: 5rem 2rem;
-  border: 6px solid #000;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #fff;
   border-radius: 6px;
-  background-color: rgba(241, 40, 9, 0.57);
+  background-color: #000;
   color: #fff;
 }
 
@@ -2675,7 +2679,7 @@ figcaption {
 
 .heading-11 {
   font-family: 'Fjalla One', sans-serif;
-  color: #f0cda9;
+  color: #f4f4f4;
   font-size: 4rem;
 }
 
