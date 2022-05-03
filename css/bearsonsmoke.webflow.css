@@ -2423,7 +2423,7 @@ figcaption {
   border-width: 6px;
   border-color: #fff;
   border-radius: 0px;
-  background-color: rgba(19, 19, 19, 0.72);
+  background-color: rgba(0, 0, 0, 0.72);
   font-family: 'Bloxat pdoe', sans-serif;
   color: #fff;
 }
@@ -2776,8 +2776,7 @@ figcaption {
   padding: 3rem 1rem 1rem;
   border: 0px solid #000;
   border-radius: 0px;
-  background-color: #eed167;
-  background-image: linear-gradient(204deg, #eed167, #000);
+  background-color: #000000;
   font-family: 'Bloxat pdoe', sans-serif;
 }
 
